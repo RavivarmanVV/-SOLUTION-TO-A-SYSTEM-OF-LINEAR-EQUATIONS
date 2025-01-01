@@ -14,9 +14,9 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
-#Program to find the solution for the given linear equations.
-#Developed by: RavivarmanVV
-#RegisterNumber:24006127
+        #Program to find the solution for the given linear equations.
+        #Developed by: RavivarmanVV
+        #RegisterNumber:24006127
         import numpy as np
         
         # Coefficient matrix
@@ -37,6 +37,7 @@ End the program
             
         except np.linalg.LinAlgError:
             print("The system of equations does not have a unique solution.")
+
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/321e06b4-ce37-4fee-a7c8-b478550f2397)
